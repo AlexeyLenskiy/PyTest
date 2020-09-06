@@ -1,5 +1,5 @@
 # PyTest
-**Pytest commands
+**Pytest commands**
 
 py.test test_sample.py --collect-only  # collects information test suite
 
