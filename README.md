@@ -1,5 +1,5 @@
 # PyTest
-** Pytest commands
+**Pytest commands
 
 py.test test_sample.py --collect-only  # collects information test suite
 
@@ -11,9 +11,9 @@ python -m pytest -q test_sample.py  # calling pytest through python
 
 py.test --markers  # show available markers
 
-** In order to create a reusable marker.
+**In order to create a reusable marker.
 /*
-** content of pytest.ini
+**content of pytest.ini
 [pytest]
 markers =
     webtest: mark a test as a webtest.
@@ -50,7 +50,7 @@ py.test --traceconfig  # find out which py.test plugins are active in your envir
 
 py.test --instafail  # if pytest-instafail is installed, show errors and failures instantly instead of waiting until the end of test suite.
 
-# Test using parametrize
+**Test using parametrize
 /*
     import pytest
 
