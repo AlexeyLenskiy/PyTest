@@ -1,4 +1,5 @@
 # PyTest
+** Pytest commands
 
 py.test test_sample.py --collect-only  # collects information test suite
 
@@ -10,9 +11,9 @@ python -m pytest -q test_sample.py  # calling pytest through python
 
 py.test --markers  # show available markers
 
-# In order to create a reusable marker.
+** In order to create a reusable marker.
 /*
-# content of pytest.ini
+** content of pytest.ini
 [pytest]
 markers =
     webtest: mark a test as a webtest.
